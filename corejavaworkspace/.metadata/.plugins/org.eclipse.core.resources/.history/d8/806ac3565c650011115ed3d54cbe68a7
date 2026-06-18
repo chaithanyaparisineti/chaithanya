@@ -1,0 +1,32 @@
+package ipl;
+
+public class iplteam {
+	 int empId;
+	 String empName;
+	 int salary;
+	 String department;
+	
+	public static void main(String[] args) {
+		iplteam ip=new iplteam();
+		
+		ip.empName="chaithanya";
+		ip.empId=15;
+		ip.salary=12000;
+		ip.department="employer";
+		System.out.println(ip.empName);
+		System.out.println(ip.empId);
+		System.out.println(ip.salary);
+		System.out.println(ip.department);
+		iplteam ip2=new iplteam();
+		ip.empName="sravan";
+		ip.empId=17;
+		ip.salary=12000;
+		ip.department="employer2";
+		System.out.println(ip.empName);
+		System.out.println(ip.empId);
+		System.out.println(ip.salary);
+		System.out.println(ip.department);
+
+	}
+	
+}

@@ -1,0 +1,23 @@
+package object;
+
+public class objectcount {
+	 int empId;
+	 String empName;
+	 int salary;
+	 String department;
+	 static int count=0;
+	 {
+		 count++;
+		 System.out.println("instance method started");
+	 }
+	 
+	
+	public static void main(String[] args) {
+		objectcount emp1=new objectcount();
+		objectcount emp2=new objectcount();
+		objectcount emp3=new objectcount();
+		
+		
+		
+}
+}

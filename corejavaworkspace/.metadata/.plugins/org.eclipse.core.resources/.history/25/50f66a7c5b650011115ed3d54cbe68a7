@@ -1,0 +1,17 @@
+package ipl;
+
+public class iplteam {
+	 int empId;
+	 String empName;
+	 int salary;
+	 String department;
+	
+	public static void main(String[] args) {
+		iplteam ip=new iplteam();
+		
+		ip.empName="chaithanya";
+		ip.empId=1512;
+		
+	}
+	
+}
